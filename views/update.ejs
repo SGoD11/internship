@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Update Remark</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <%- include("partials/header") %>
+    <h2>Update Remark</h2>
+    <form id="updateForm">
+      <input type="text" name="configId" placeholder="Enter Config ID" required />
+      <textarea name="remark" placeholder="Enter Remark"></textarea>
+      <button type="submit">Update</button>
+    </form>
+    <div id="updateResult"></div>
+
+    <script src="/js/main.js"></script>
+  </body>
+</html>

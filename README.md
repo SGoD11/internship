@@ -17,7 +17,7 @@ This app demonstrates a simple **REST API with Express & MongoDB** and a **front
 
 ## 📂 Project Structure
 ```
-fullstack-assignment/
+internship/
 │── server.js              # Entry point
 │── package.json
 │

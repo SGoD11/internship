@@ -49,8 +49,8 @@ fullstack-assignment/
 
 1. Clone the repo or unzip the project folder:
    ```bash
-   git clone https://github.com/your-username/fullstack-assignment.git
-   cd fullstack-assignment
+   git clone https://github.com/SGoD11/internship.git
+   cd internship
    ```
 
 2. Install dependencies:
@@ -73,10 +73,11 @@ fullstack-assignment/
 
 ## 🗄️ Database Setup
 This project uses **MongoDB Atlas**.  
-The connection string is already configured inside `config/db.js`:
+The connection string is inside `.env` file with named as `DATABASE_URL`:
+so create a .env file and then do this below
 
 ```js
-mongoose.connect("mongodb+srv://development:X3TcC8tKnI5JINuR@betalive.9sakb.gcp.mongodb.net/database");
+DATABASE_URL = secret
 ```
 
 ### Sample Document
@@ -144,17 +145,3 @@ PUT /api/configurations/:id
 - Click **Update** → Remark gets updated in MongoDB
 
 ---
-
-## 📸 Screenshots (Optional)
-You can add screenshots here once you run the project locally.
-
----
-
-## 🚀 Submission
-As per assignment instructions:
-- Push this project to GitHub
-- Or zip and send it to **hr@coderower.com**
-- Subject format:  
-  ```
-  <Your Name> - Backend: Node.js/Express, Frontend: EJS
-  ```
